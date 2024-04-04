@@ -1,14 +1,6 @@
-.body {
+body {
     background-image: url("../img/download.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
-}
-
-main {
-    font-size: xx-large;
-}
+  }
 
 .bd {
     position: relative;
@@ -35,4 +27,8 @@ main {
     position: absolute;
     top: 35px;
     right: 32px;
+} 
+
+#princ{
+    font-size: xx-large;
 }
