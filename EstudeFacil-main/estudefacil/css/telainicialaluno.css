@@ -1,0 +1,64 @@
+/* Cores */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.minhas-turmas,
+.minhas-atividades {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.minhas-turmas h2,
+.minhas-atividades h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.minhas-turmas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.minhas-turmas li {
+    margin-bottom: 10px;
+}
+
+.minhas-turmas a,
+.minhas-atividades a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.minhas-atividades p {
+    text-align: center;
+}
+
+.modal {
+    display: none; /* Ocultar a modal por padrão */
+    position: fixed; /* Fixar a modal na tela */
+    z-index: 1; /* Deixar a modal acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Cobrir a tela inteira */
+    height: 100%; /* Cobrir a tela inteira */
+    overflow: auto; /* Permitir rolagem se o conteúdo for maior que a modal */
+}
