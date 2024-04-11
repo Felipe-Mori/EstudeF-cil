@@ -32,13 +32,6 @@ body {
     background-color: #ddd;
 }
 
-.absolute {
-    height: 50px;
-    position: absolute;
-    top: 35px;
-    right: 32px;
-}
-
 #princ {
     font-size: xx-large;
 }
